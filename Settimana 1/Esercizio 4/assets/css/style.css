@@ -144,36 +144,92 @@ div iframe {
     margin-bottom: 40px;
 }
 
+.toolonline a {
+    font-weight: 600;
+}
+
 /* FORM */
 
-section {
+.section1 {
     width: 440px;
     background-color: #e7e7e7;
     padding: 30px;
 }
 
-section h2 {
+.section1 h2 {
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
 }
 
-section input {
+.section1 input {
     width: 270px;
     height: 40px;
     font-size: 1em;
     margin-right: 12px;
 }
 
-section button {
+.section1 button {
     width: 90px;
     height: 40px;
     font-size: 1em;
 }
 
-
-
 /* ELEMENTI NELL' ASIDE */
 
+.articoli-correlati {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+}
+
+.section2, .section3, .section4 {
+    border: 1px solid rgb(196, 192, 192);
+    background-color: #e7e7e7;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.section2 a, .section3 a, .section4 a {
+    font-weight: 600;
+    color: #039CCB;
+}
+
+.data {
+    font-size: 0.85em;
+    text-align: right;
+    padding: 0;
+}
+
+.section2 p, .section3 p, .section4 p {
+    font-weight: 500;
+}
+
 /* FOOTER */
+
+footer {
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-image: linear-gradient(#005566, #29363A);
+    box-shadow: 0px 5px 5px grey;
+}
+
+footer p {
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+address {
+    font-size: 1.4em;
+}
+
+address a {
+    font-weight: 600;
+    color: #FF00FE;
+}
