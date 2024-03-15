@@ -1,0 +1,217 @@
+/* Your styles here */
+
+html {
+    width: 500px;
+    height: auto;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.65;
+    font-size: 1.2rem;
+    color: #393d41;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+
+.logo {
+    background-color: black;
+    width: auto;
+    padding: 37px;
+    margin: 0 auto;
+}
+
+.bgImage {
+    background-image: url(../images/banner.jpg);
+    width: 500px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1,
+article h2,
+.scheda1 h2 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bgImage h1 {
+    font-size: 2.3em;
+    padding: 70px 20px 20px 20px;
+    line-height: 1em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.bgImage p {
+    font-weight: 500;
+    font-size: 1.3em;
+    padding: 0px 20px 30px 20px;
+}
+
+.bgImage button {
+    background-color: #f04c2f;
+    width: 190px;
+    height: 55px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+fieldset {
+    padding-bottom: 50px;
+}
+
+.bgImage a:link,
+.bgImage a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    width: 500;
+    text-align: center;
+}
+
+#contenuto {
+    max-width: 500px;
+    padding: 65px 5px;
+    text-align: center;
+}
+
+article img {
+    width: 350px;
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
+
+
+article h2,
+article p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+article h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+article p {
+    font-size: 1.22em;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+#citazione {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #e22d0e;
+    font-size: medium;
+    padding: 70px 30px 50px 30px;
+}
+
+#citazione h2 {
+    font-size: 2.6em;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+#citazione q {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+#citazione cite {
+    font-size: 1.5em;
+}
+
+
+
+
+
+#schede {
+    width: 500px;
+    padding: 75px 30px 60px 30px;
+}
+
+.scheda1 {
+    display: block;
+    width: 440px;
+    min-height: 480px;
+    max-height: 480px;
+    border: 1px solid #dee1e3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.scheda1 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: top;
+}
+
+.scheda1 h2 {
+    
+    font-size: 1.1em;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.scheda1 p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+
+#contattaci {
+    color: white;
+    background-color: #25a2c3;
+    padding: 50px;
+}
+
+#contattaci h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2em;
+    font-weight: bolder;
+    padding-bottom: 1px;
+}
+
+.indirizzi {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+#contattaci div p {
+    font-size: 0.9em;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+#contattaci a:link,
+#contattaci a:visited,
+#contattaci div p {
+    color: #c8e7f0;
+
+}
