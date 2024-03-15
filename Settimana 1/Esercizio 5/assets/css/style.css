@@ -5,33 +5,34 @@ body {
     line-height: 1.65;
     font-size: 1.2rem;
     color: #393d41;
+    text-align: center;
 }
-
 
 header {
     text-align: center;
 }
 
-.headerBlack {
-    text-align: left;
-    width: 1920px;
+#headerBlack {
+    /*    text-align: center; */
+    width: auto;
     background-color: black;
 }
 
-#logo {
+.logo {
     width: 220px;
     padding: 40px 80px;
 }
 
 .bgImage {
     background-image: url(../images/banner.jpg);
-    width: 1920px;
+    width: auto;
     padding-block: 200px;
     text-align: center;
 }
 
 h1,
-h2 {
+article h2,
+.scheda1 h2 {
     color: #25a2c3;
     font-family: 'Montserrat', sans-serif;
 }
@@ -53,7 +54,6 @@ h1 {
 }
 
 .bgImage button {
-    color: white;
     background-color: #f04c2f;
     width: 200px;
     height: 60px;
@@ -63,4 +63,137 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
+}
+
+.bgImage a:link,
+.bgImage a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 180px;
+}
+
+#contenuto {
+    width: 700px;
+    text-align: left;
+}
+
+article img {
+    width: 600px;
+    border-radius: 50%;
+}
+
+
+article h2,
+article p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    padding-left: 100px;
+}
+
+article h2 {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+article p {
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+#citazione {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #e22d0e;
+    font-size: medium;
+    padding: 150px;
+}
+
+#citazione h2 {
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#citazione q {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 2.1em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+#citazione cite {
+    font-size: 1.5em;
+}
+
+#schede {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 130px;
+}
+
+.scheda1 {
+    width: 500px;
+    height: 520px;
+    border: 1px solid #dee1e3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 20px;
+}
+
+.scheda1 img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.scheda1 h2 {
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.scheda1 p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+}
+
+#contattaci {
+    color: white;
+    background-color: #25a2c3;
+    padding: 70px;
+}
+
+#contattaci h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.indirizzi {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.1em;
+    padding-bottom: 33px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid;
+}
+
+#contattaci div p {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+}
+
+#contattaci a:link,
+#contattaci a:visited,
+#contattaci div p {
+    color: #c8e7f0;
+
 }
