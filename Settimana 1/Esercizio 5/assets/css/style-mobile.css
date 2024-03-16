@@ -69,7 +69,16 @@ h1 {
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
+    opacity: 0.7;
 }
+
+.bgImage button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    opacity: 1;
+    box-shadow: 0px 0px 15px -4px #000000;
+}
+
 
 fieldset {
     padding-bottom: 50px;
@@ -150,6 +159,7 @@ article p {
 
 
 
+
 #schede {
     width: 500px;
     padding: 75px 30px 60px 30px;
@@ -164,6 +174,14 @@ article p {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 35px;
+}
+
+.scheda1:hover {
+    transform: scale(1.03);
+    transition-duration: 0.2s;
+    opacity: 1;
+    box-shadow: 0px 0px 15px -4px #000000;
+    border: none;
 }
 
 .scheda1 img {
