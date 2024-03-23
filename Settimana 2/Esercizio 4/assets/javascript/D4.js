@@ -33,7 +33,7 @@ console.log(areaTriangolo);
 
 console.log('***ESERCIZIO 2***')
 
-let num1 = 122;
+let num1 = 12;
 let num2 = 12;
 
 function crazySum(n1, n2) {
@@ -143,8 +143,8 @@ function reverseString(stringa) {
     inverti = inverti.join('');
 }
 
-reverseString(inverti)
-console.log(inverti)
+reverseString(inverti);
+console.log(inverti);
 
 
 /* ESERCIZIO 8
@@ -159,21 +159,74 @@ let up = 'ciao, mi chiamo vincenzo'
 function upperFirst(maiuscolo) {
     up = maiuscolo.split(' ');
 
+    for (let i = 0; i < up.length; i++) {
+        up[i] = up[i][0].toUpperCase('') + up[i].slice(1);
+    }
+    up = up.join(' ');
 }
 
-/* up = maiuscolo[0].toUpperCase() + maiuscolo.slice(1);
- */
 upperFirst(up);
+console.log(up);
+
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log('***ESERCIZIO 9***')
+
+let taglia = 'ciao mondo, come stai?'
+
+function cutString(cut) {
+    taglia = cut.slice(1, -1);
+}
+
+cutString(taglia);
+console.log(taglia);
 
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log('***ESERCIZIO 9***')
+
+let random = [];
+
+function giveMeRandom(boh) {
+    for (let i = 0; i < boh; i++) {
+        random.push(Math.floor(Math.random() * 11))
+    };
+    console.log(random);
+}
+
+giveMeRandom(10);
+
+
+/* EXTRA 1
+ Scrivi una funzione chiamata "checkArray" che riceve un array di numeri casuali (creati con la funzione "giveMeRandom") e per ogni elemento stampa in console
+ se il suo valore è maggiore di 5 o no.
+ La funzione deve inoltre ritornare la somma di tutti i valori maggiori di 5.
+*/
+
+console.log('***!!!!!!ESERCIZIO EXTRA!!!!!!***')
+
+let maggCinque = [];
+let somma = 0;
+
+function checkArray(boh2) {
+    for (let i = 0; i < boh2.length; i++) {
+        if (boh2[i] > 5) {
+            maggCinque.push(boh2[i])
+            console.log(boh2[i] + ' è maggiore di 5')
+        } else {
+            console.log(boh2[i])
+        } 
+    } 
+    for (let i = 0; i < maggCinque.length; i++) {
+        somma += maggCinque[i];
+      }
+}
+
+checkArray(random);
+console.log(somma)
